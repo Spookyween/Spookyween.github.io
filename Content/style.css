@@ -1,0 +1,55 @@
+﻿@font-face {
+   font-family: 'Espen Halloween';
+   src: local('Espen Halloween'), url('https://fonts.cdnfonts.com/s/45764/EspenHalloween.woff') format('woff');
+   font-style: normal;
+}
+body{
+	background-image: url('bakgrunn9.png');
+	background-size: cover;
+}
+#game {
+	height: 480px; width: 640px; position: absolute; left: 50%; top: 50%;
+	margin-left: -321px; margin-top: -241px; border: 1px solid black; overflow: hidden; border-radius: 16px;;
+}
+#world { 
+	margin: 0; padding: 0; height: 100%; width: 100%; position: absolute;
+	bottom: 0; left: 0; z-index: 0;
+}
+.gauge {
+	margin: 0; padding: 0; height: 50px; width: 70px; text-align: right; font-size: 2em;
+	font-weight: bold; position: absolute; top: 17px; right: 52px; z-index: 1000;
+	position: absolute; font-family: 'Espen Halloween';
+}
+.gaugeSprite {
+	margin: 0; padding: 0; z-index: 1000; position: absolute;
+}
+#coinNumber {
+	left: 0;
+	top:0;
+	font-size: 40px;
+}
+#liveNumber {
+	right: 52px;
+	top:0;
+	font-size: 40px;
+}
+#coin {
+	height: 32px; width: 32px; background-image : url(objekter.png);
+	background-position: 0 0; top: 5px; left: 75px;
+}
+#live {
+	height: 50px; width: 40px; background-image : url(karakter.png);
+	background-position : 0 -430px; top: 5px; right: 8px;
+}
+.figure {
+	margin: 0; padding: 0; z-index: 99; position: absolute;
+}
+.matter {
+	margin: 0; padding: 0; z-index: 95; position: absolute; width: 32px; height: 32px;
+}
+a{
+	color: red;
+font-family:'Espen Halloween', sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+}
