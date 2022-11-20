@@ -1,0 +1,94 @@
+/* Henter skrifttype fra url https://fonts.cdnfonts.com/s/45764/EspenHalloween.woff. */
+@font-face {
+  font-family: 'Espen Halloween';
+  font-style: normal;
+  src: local('Espen Halloween'), url('https://fonts.cdnfonts.com/s/45764/EspenHalloween.woff') format('woff');
+}
+
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+body{
+    background-color: #000;
+}
+
+a{
+  color: red;
+font-family:'Espen Halloween', sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(255, 0, 13, 0.2);
+}
+
+.container {
+  padding: 0 25px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(159, 155, 155);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(72, 2, 2);
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: rgb(40, 31, 31);
+}
+
+/*Bruker https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text*/ /* for å lyse opp teksten til å lyse.*/
+.glow{
+  color:aliceblue;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #610909, 0 0 50px #610909, 0 0 60px #610909, 0 0 70px #e60000;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #610909, 0 0 70px #610909, 0 0 80px #e60000;
+}
+};
