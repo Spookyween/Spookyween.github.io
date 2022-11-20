@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="CSS/Forside.css">
+  <link rel="stylesheet" href="CSS/forside.css">
   <link rel="icon" href="Content/NettsideICON/Pumpkin-icon-til-nettsiden2.png">
   <title> Spookyween </title>
 </head>
@@ -17,13 +17,13 @@
 </p>
 
 <!-- SPØKELSE DIV -->
-  <div id="ghost">
-    <div id="head">
-      <div id="eyes">
-        <div id="left"></div>
-        <div id="right"></div>
+  <div id="spøkelse">
+    <div id="hode">
+      <div id="øyne">
+        <div id="venstre"></div>
+        <div id="høyre"></div>
       </div>
-      <div id="mouth"></div>
+      <div id="munn"></div>
     </div>
     <div id="bumps">
       <div></div>
@@ -35,10 +35,10 @@
 
 <!-- CANVAS TIL SPØKELSE -->
 <script>
-const left = document.querySelector("#left")
-const right = document.querySelector("#right")
-const mouth = document.querySelector("#mouth")
-const ghost = document.querySelector("#ghost")
+const left = document.querySelector("#venstre")
+const right = document.querySelector("#høyre")
+const mouth = document.querySelector("#munn")
+const ghost = document.querySelector("#spøkelse")
 
 const eyeMaxX = 30
 const eyeMaxY = 20

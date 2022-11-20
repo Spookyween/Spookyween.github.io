@@ -172,7 +172,7 @@ html {
     z-index: 100;
   }
 
-  #ghost {
+  #spøkelse {
     transition: transform 1s;
     
     --size: 50vmin;
@@ -182,7 +182,7 @@ html {
 
   }
   
-  #head {
+  #hode {
     width: 100%;
     height: 100%;
     
@@ -192,7 +192,7 @@ html {
 
   }
   
-  #eyes {
+  #øyne {
     width: 100%;
     height: 30%;
     
@@ -206,7 +206,7 @@ html {
 
   }
   
-  #eyes * {
+  #øyne * {
     width: 30%;
     height: 100%;
     
@@ -217,18 +217,18 @@ html {
   }
   
   
-  #left {
+  #venstre {
     transition: transform 0.3s;
   }
   
-  #right {
+  #høyre {
     transition: transform 0.2s;
     
     width: 25%;
     height: 90%;
   }
   
-  #mouth {
+  #munn {
     transition: transform 0.2s;
     
     width: 10%;
